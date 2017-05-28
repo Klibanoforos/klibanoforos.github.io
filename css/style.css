@@ -8,17 +8,37 @@ body {
     font-family: 'Lato', sans-serif;
     color: #291f1a;
     margin: 0;
-    background-color: antiquewhite;/*    tło roboczo do skasowania */
 }
 
 a {
     transition: all 0.3s;
 }
 
+span {
+    color: #1ac056;
+    font-weight: 400;
+}
+
+section {
+    padding: 30px 80px;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+}
+
+h2 {
+    text-align: center;
+}
+
 /*menu nagłówka*/
 
 #main-nav {
-    background-color: #fff;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 #main-nav ul {
@@ -33,10 +53,74 @@ a {
 
 #main-nav ul li a {
     text-decoration: none;
-    color: green; 
+    color: #1ac056; 
     font-weight: 300;
 }
 
 #main-nav ul li a:hover {
-    color: 291f1a;
+    color: #291f1a;
+}
+
+/* nagłówek */
+
+header#main-header {
+    background-image: url(../img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+
+header #header-caption {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    text-align: center;
+    
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header #header-caption h1 {
+    font-size: 10em;
+    font-weight: 300;
+}
+
+header #header-caption h2 {
+    font-size: 2em;
+    font-weight: 300;
+    transform: translateY(-310%);
+}
+
+/* about */
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+}
+
+#about h2 {
+    padding: 25px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#about figure {
+    margin: 0;
+    text-align: center;
+}
+
+#about figure img {
+    max-height: 300px;
+    max-width: 100%;
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
+
+#about div {
+    text-align: justify;
+    font-weight: 300;
+    line-height: 24px;
 }
