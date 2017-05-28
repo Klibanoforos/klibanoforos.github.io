@@ -1,0 +1,42 @@
+/*ogólne style*/
+
+* {
+    box-sizing: border-box 
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    margin: 0;
+    background-color: antiquewhite;/*    tło roboczo do skasowania */
+}
+
+a {
+    transition: all 0.3s;
+}
+
+/*menu nagłówka*/
+
+#main-nav {
+    background-color: #fff;
+}
+
+#main-nav ul {
+    margin: 0;
+    text-align: right;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    padding: 25px;
+}
+
+#main-nav ul li a {
+    text-decoration: none;
+    color: green; 
+    font-weight: 300;
+}
+
+#main-nav ul li a:hover {
+    color: 291f1a;
+}
