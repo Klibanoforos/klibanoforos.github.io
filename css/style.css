@@ -95,7 +95,9 @@ header #header-caption h2 {
     transform: translateY(-310%);
 }
 
+
 /* about */
+
 
 section#about {
     background-color: #f9fcfe;
@@ -117,7 +119,7 @@ section#about div {
 }
 
 section#about div p {
-      margin-right: 25px;
+      margin-right: 50px;
 }
 
 section#about figure {
@@ -136,6 +138,10 @@ section#about figure img {
 /*skillz*/
 
 
+section#skillz {
+    padding: 50px;
+}
+
 section#skillz h2 {
     font-weight: 100;
 }
@@ -146,13 +152,12 @@ section#skillz p {
 }
 
 section#skillz div {
-    padding-left: 200px;
+    text-align: center;
 }
 
 section#skillz div figure {
-    text-align: center;
     padding: 10px;
-    float:left;
+    display: inline-block;
 }
 
 
@@ -165,14 +170,77 @@ section#portfolio h2 {
     font-weight: 100;
 }
 
-section#portfolio div {
-    max-height: 100px;
-    max-width: 100px;
+section#portfolio div.portfolio-items div#portfolio-item-1 {
+    background-image: url(../img/portfolio1.jpg);
 }
 
-section#portfolio div figure {
-    float: left;
-    width: 25%;
-    max-height: 100px;
-    max-width: 100px;
+section#portfolio div.portfolio-items div#portfolio-item-2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+section#portfolio div.portfolio-items div#portfolio-item-3 {
+    background-image: url(../img/portfolio3.jpg);
+}
+section#portfolio div.portfolio-items {
+    text-align: center;
+}
+
+section#portfolio div.portfolio-items div.portfolio-item {
+    width: 32%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: inline-block;
+}
+
+section#portfolio div.portfolio-items div.portfolio-item div.item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    font-size: initial;
+}
+
+
+section#portfolio div.portfolio-items div.portfolio-item div.item-mask:hover {
+    opacity: 1;
+}
+
+section#portfolio div.portfolio-items div.portfolio-item div.item-mask div.item-content {
+    height: 330px;
+    border: 1px solid #fff;
+    margin: 10px;
+    position: relative;
+}
+
+section#portfolio div.portfolio-items div.portfolio-item div.item-mask div.item-content div.item-content-inner {
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    padding: 5px;
+}
+    
+
+section#portfolio div.portfolio-items div.portfolio-item div.item-mask div.item-content div.item-content-inner i:hover {
+    color: #1ac056;
+}
+
+
+/* formularz */
+
+
+section#form {
+    background-color: #213b50;
+}
+
+section#form h2 {
+    text-align: left;
+}
+
+section#form input {
 }
