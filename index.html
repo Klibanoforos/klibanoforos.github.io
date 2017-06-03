@@ -85,8 +85,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, error excepturi quaerat fugit aliquid, molestiae doloribus facilis. Sint nemo at magni esse illum consectetur aperiam commodi necessitatibus, quaerat vero, repellat.</p>
                             <h4>Wykorzystane technologie</h4>
                             <p class="project-technologies">HTML5, CSS, JS, JQuery, RWD</p>
-                            <a href="#" class="project-link"></a>
-                            <i class="fa fa-link fa-2x" aria-hidden="true"></i>
+                            <a href="#" class="project-link"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -99,8 +98,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, error excepturi quaerat fugit aliquid, molestiae doloribus facilis. Sint nemo at magni esse illum consectetur aperiam commodi necessitatibus, quaerat vero, repellat.</p>
                             <h4>Wykorzystane technologie</h4>
                             <p class="project-technologies">HTML5, CSS, JS, JQuery, RWD</p>
-                            <a href="#" class="project-link"></a>
-                            <i class="fa fa-link fa-2x" aria-hidden="true"></i>
+                            <a href="#" class="project-link"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -123,24 +121,28 @@
         </div>
     </section>
 
-    <section id="form">
-        <h2>Jan <span>Nowak</span></h2>
-        <article>
-            <p>ul.Mostowa 6/13</p>
-            <p>31-061 Kraków</p>
-        </article>
-        <article>
-            <p>tel. 999999999</p>
-            <p>email:<a href="mailto: klibanoforos@gmail.com">klibanoforos@gmail.com</a></p>
-        </article>
-        <form action="https://formspree.io/klibanoforos@gmail.com" method="POST">
-            <input classtype="text">
-            <input type="email">
-            <input type="text">
-            <input type="submit" value="WYŚLIJ">
-        </form>
+    <section id="contact">
+        <div class="contact-data">
+            <h2>Jan <span>Nowak</span></h2>
+            <address>
+                ul.Mostowa 6/13 <br> 31-061 Kraków<br><br> tel: 123 456 789<br> e-mail: <a href="mailto: klibanoforos@gmail.com">klibanoforos@gmail.com</a>
+            </address>
+            <div class="contact-social-icons">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="https://formspree.io/klibanoforos@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Imię i Nazwisko" />
+                <input type="email" name="email" placeholder="Adres email" />
+                <textarea name="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="WYŚLIJ">
+            </form>
+        </div>
     </section>
-
 </body>
 
 </html>
