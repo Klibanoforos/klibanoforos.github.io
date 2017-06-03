@@ -163,6 +163,9 @@ section#skillz div figure {
 
 /* portfolio */
 
+section#portfolio {
+    margin-bottom: 100px;
+}
 
 section#portfolio h2 {
     padding: 25px;
@@ -243,6 +246,8 @@ section#contact {
     color: #fff;
     overflow: hidden;
     padding: 50px;
+    font-weight: 100;
+    z-index: 10;
 }
 
 section#contact div.contact-data {
@@ -322,3 +327,15 @@ section#contact div.contact-form input[type="submit"]:hover {
     color: #1ac056;
     cursor: pointer;
 } 
+
+/* stopka */
+
+footer.copyright {
+    background-color: #142634;
+    color: #fff;
+    padding: 0 80px;
+}
+
+footer p {
+    margin: 0;
+}
