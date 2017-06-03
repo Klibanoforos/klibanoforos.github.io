@@ -20,21 +20,32 @@
         <!--  style -->
 
         <link rel="stylesheet" href="css/style.css">
+        
+        <link rel="stylesheet" href="css/stylerwd.css">
 
 
 </head>
 
 <body>
 
+<!--   menu nagłówka   -->
+   
     <nav id="main-nav">
+       
+       <label for="drop" class="toggle">Menu</label>
+       <input type="checkbox" id="drop" />
+       
         <ul>
-            <li class="menu-item"><a href="omnie">o mnie</a></li>
-            <li class="menu-item"><a href="umiejetnosci">umiejętności</a></li>
-            <li class="menu-item"><a href="portfolio">portfolio</a></li>
-            <li class="menu-item"><a href="kontakt">kontakt</a></li>
+            <li class="menu-item"><a href="#about">o mnie</a></li>
+            <li class="menu-item"><a href="#skillz">umiejętności</a></li>
+            <li class="menu-item"><a href="#portfolio">portfolio</a></li>
+            <li class="menu-item"><a href="#contact">kontakt</a></li>
         </ul>
+        
     </nav>
 
+<!--   obrazek nagłówka  -->
+   
     <header id="main-header">
         <div id="header-caption">
             <h1>Jan
@@ -44,6 +55,8 @@
         </div>
     </header>
 
+<!--   o mnie   -->
+   
     <section id="about">
         <h2>O <span>mnie</span></h2>
         <figure class="col-1-2">
@@ -55,6 +68,8 @@
         </div>
     </section>
 
+<!--   moje umiejętności   -->
+   
     <section id="skillz">
         <h2>Moje <span>umiejętności</span></h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas quas saepe error doloribus eius, nihil ab, laboriosam neque eum, tenetur in quo! Aperiam repudiandae possimus at labore praesentium maxime?</p>
@@ -74,6 +89,8 @@
         </div>
     </section>
 
+<!--   moje portfolio   -->
+   
     <section id="portfolio">
         <h2>Moje <span> portfolio</span></h2>
         <div class="portfolio-items">
@@ -121,6 +138,8 @@
         </div>
     </section>
 
+<!--   kontakt   -->
+   
     <section id="contact">
         <div class="contact-data">
             <h2>Jan <span>Nowak</span></h2>
@@ -144,6 +163,8 @@
         </div>
     </section>
 
+<!--   stopka   -->
+   
     <footer class="copyright">
         <p>Copyright &copy Jan Nowak</p>
     </footer>

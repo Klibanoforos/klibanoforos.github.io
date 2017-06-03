@@ -40,6 +40,10 @@ h2 {
     z-index: 10;
 }
 
+#main-nav .toggle, #drop {
+    display: none;
+}
+
 #main-nav ul {
     margin: 0;
     text-align: right;
@@ -163,6 +167,7 @@ section#skillz div figure {
 
 /* portfolio */
 
+
 section#portfolio {
     margin-bottom: 100px;
 }
@@ -173,17 +178,6 @@ section#portfolio h2 {
     font-weight: 100;
 }
 
-section#portfolio div.portfolio-items div#portfolio-item-1 {
-    background-image: url(../img/portfolio1.jpg);
-}
-
-section#portfolio div.portfolio-items div#portfolio-item-2 {
-    background-image: url(../img/portfolio2.jpg);
-}
-
-section#portfolio div.portfolio-items div#portfolio-item-3 {
-    background-image: url(../img/portfolio3.jpg);
-}
 section#portfolio div.portfolio-items {
     text-align: center;
 }
@@ -196,6 +190,18 @@ section#portfolio div.portfolio-items div.portfolio-item {
     background-position: center;
     position: relative;
     display: inline-block;
+}
+
+section#portfolio div.portfolio-items div#portfolio-item-1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+
+section#portfolio div.portfolio-items div#portfolio-item-2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+section#portfolio div.portfolio-items div#portfolio-item-3 {
+    background-image: url(../img/portfolio3.jpg);
 }
 
 section#portfolio div.portfolio-items div.portfolio-item div.item-mask {
