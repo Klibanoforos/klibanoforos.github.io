@@ -1,5 +1,6 @@
 /*ogólne style*/
 
+
 * {
     box-sizing: border-box 
 }
@@ -19,10 +20,6 @@ span {
     font-weight: 400;
 }
 
-section {
-    padding: 30px 80px;
-}
-
 .col-1-2 {
     width: 50%;
     float: left;
@@ -32,7 +29,9 @@ h2 {
     text-align: center;
 }
 
+
 /*menu nagłówka*/
+
 
 #main-nav {
     background-color: transparent;
@@ -61,7 +60,9 @@ h2 {
     color: #291f1a;
 }
 
+
 /* nagłówek */
+
 
 header#main-header {
     background-image: url(../img/header-background.jpg);
@@ -96,53 +97,82 @@ header #header-caption h2 {
 
 /* about */
 
-#about {
+section#about {
     background-color: #f9fcfe;
     overflow: hidden;
     box-shadow: 0px 2px 2px 0px
     rgba(0,0,0,0.75);
 }
 
-#about h2 {
+section#about h2 {
     padding: 25px;
     font-size: 30px;
     font-weight: 300;
 }
 
-#about figure {
+section#about div {
+    text-align: justify;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+section#about div p {
+      margin-right: 25px;
+}
+
+section#about figure {
     margin: 0;
     text-align: center;
 }
 
-#about figure img {
+section#about figure img {
     max-height: 300px;
     max-width: 100%;
     border: 10px solid #fff;
     border-radius: 10px;
 }
 
-#about div {
-    text-align: justify;
-    font-weight: 300;
-    line-height: 24px;
-}
 
 /*skillz*/
 
-#skillz {
-    padding: 50px;
-}
 
-#skillz h2 {
+section#skillz h2 {
     font-weight: 100;
 }
 
-#skillz p {
+section#skillz p {
     text-align: center;
     font-weight: 100;
 }
 
-#skillz figure {
+section#skillz div {
+    padding-left: 200px;
+}
+
+section#skillz div figure {
     text-align: center;
-     padding: 25px;
+    padding: 10px;
+    float:left;
+}
+
+
+/* portfolio */
+
+
+section#portfolio h2 {
+    padding: 25px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+section#portfolio div {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+section#portfolio div figure {
+    float: left;
+    width: 25%;
+    max-height: 100px;
+    max-width: 100px;
 }
