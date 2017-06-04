@@ -190,6 +190,7 @@ section#portfolio div.portfolio-items div.portfolio-item {
     background-position: center;
     position: relative;
     display: inline-block;
+    margin: -3px;
 }
 
 section#portfolio div.portfolio-items div#portfolio-item-1 {
@@ -261,7 +262,7 @@ section#contact div.contact-data {
     float: left;
 }
 
-section#contact .contact-data h2 {
+section#contact div.contact-data h2 {
     text-align: left;
     font-size: 38px;
 }

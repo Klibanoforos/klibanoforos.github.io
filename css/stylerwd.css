@@ -46,6 +46,32 @@
     section#about .col-1-2 {
         width: 100%;
     }
+    
+     section#portfolio div.portfolio-items div.portfolio-item {
+        width: 80%;
+    }
+    
+    section#portfolio div.portfolio-items div.portfolio-item:last-child {
+        width: 80%;
+    }
+    
+    section#contact div.contact-data {
+        width: 100%;
+        text-align: center;
+    }
+    
+    section#contact div.contact-form {
+        width: 100%;
+    }
+    
+    section#contact div.contact.data div.contact-social-icons a {
+        margin: 0;
+    }
+    
+    section#contact div.contact-data h2 {
+        text-align: center;
+    }
+    
 }
     
 @media all and (max-width: 680px) {
@@ -58,12 +84,12 @@
         font-size: 1.5em;
     }
     
-      section#portfolio div.portfolio-items div.portfolio-item {
-        width: 80%;
+     section#portfolio div.portfolio-items div.portfolio-item {
+        width: 100%;
     }
     
     section#portfolio div.portfolio-items div.portfolio-item:last-child {
-        width: 80%;
+        width: 100%;
     }
 }
         
