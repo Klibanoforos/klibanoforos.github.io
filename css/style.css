@@ -240,10 +240,6 @@ section#contact {
     padding: 10px;
 }
 
-div.container {
-    padding: 0;
-}
-
 section#contact div.container div.row div.contact-data h2 {
     text-align: left;
     font-size: 38px;
