@@ -1,0 +1,98 @@
+@media all and (max-width: 1200px) {
+    
+    section#portfolio div.portfolio-items div.portfolio-item {
+        width: 49%;
+    }
+    
+    section#portfolio div.portfolio-items div.portfolio-item:last-child {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    
+    #main-nav .toggle {
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        color: #1ac056;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+    }
+    
+    #main-nav ul {
+        display: none;
+    }
+    
+    #main-nav #drop:checked + ul {
+        display: block;
+    }
+    
+    #main-nav ul li {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
+    
+    header#main-header #header-caption {
+        padding: 10%;
+    }
+     
+    section#about .col-1-2 {
+        width: 100%;
+    }
+    
+     section#portfolio div.portfolio-items div.portfolio-item {
+        width: 80%;
+    }
+    
+    section#portfolio div.portfolio-items div.portfolio-item:last-child {
+        width: 80%;
+    }
+    
+    section#contact div.contact-data {
+        width: 100%;
+        text-align: center;
+    }
+    
+    section#contact div.contact-form {
+        width: 100%;
+    }
+    
+    section#contact div.contact.data div.contact-social-icons a {
+        margin: 0;
+    }
+    
+    section#contact div.contact-data h2 {
+        text-align: center;
+    }
+    
+}
+    
+@media all and (max-width: 680px) {
+    
+    header#main-header #header-caption h1 {
+        font-size: 3em;
+    }
+    
+    header#main-header #header-caption h2 {
+        font-size: 1.5em;
+    }
+    
+     section#portfolio div.portfolio-items div.portfolio-item {
+        width: 100%;
+    }
+    
+    section#portfolio div.portfolio-items div.portfolio-item:last-child {
+        width: 100%;
+    }
+}
+        
+@media all and (max-width: 480px) {
+    
+}
