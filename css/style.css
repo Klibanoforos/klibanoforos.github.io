@@ -39,6 +39,11 @@ p {
     border: 0px;
 }
 
+#main-nav.active {
+    background-color: black;
+    opacity: 0.5;
+}
+
 #main-nav ul {
     margin: 0;
     text-align: right;
@@ -55,7 +60,7 @@ p {
 }
 
 #main-nav div.container #main-menu ul li a:hover {
-    color: #000;
+    color: green;
 }
 
 #main-nav div.container div.navbar-header button.navbar-toggle.collapsed:hover {
