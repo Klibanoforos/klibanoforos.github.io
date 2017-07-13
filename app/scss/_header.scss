@@ -1,0 +1,81 @@
+@import "variables";
+
+
+//navbar
+
+#main-nav {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    border: 0px;
+    
+    &.active {
+        background-color: black;
+        opacity: 0.5;
+    }
+    
+    .container {
+        
+        .navbar-header {
+            
+            button.navbar-toggle.collapsed:hover {
+                background-color: $green-color;
+            }
+        }
+        
+        #main-menu {
+            
+            ul {
+                margin: 0;
+                text-align: right;
+                
+                li {
+                    padding: 15px;
+                    
+                    a {
+                        text-decoration: none;
+                        color: $green-color;
+                        font-weight: 300;
+                    }
+                    
+                    a:hover {
+                        color: green;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//    header
+
+#main-header {
+    background-image: url(../img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+    
+    #header-caption {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        position: absolute;
+        text-align: center;
+        left: 0;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        
+        h1 {
+            font-size: 10em;
+            font-weight: 100;
+        }
+        
+        h2 {
+            font-size: 2em;
+            font-weight: 100;
+        }
+    }
+}
