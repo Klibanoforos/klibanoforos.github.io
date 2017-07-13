@@ -1,5 +1,5 @@
 {
-  "name": "klibanoforos.github.io",
+  "name": "sass",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Klibanoforos/klibanoforos.github.io.git"
+    "url": "git+https://github.com/Klibanoforos/sass.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Klibanoforos/klibanoforos.github.io/issues"
+    "url": "https://github.com/Klibanoforos/sass/issues"
   },
-  "homepage": "https://github.com/Klibanoforos/klibanoforos.github.io#readme",
+  "homepage": "https://github.com/Klibanoforos/sass#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
