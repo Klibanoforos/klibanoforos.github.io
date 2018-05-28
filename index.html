@@ -2,20 +2,172 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport"  content="width=device-width, initial-scale=1.0">
 
-        <title>jezioro</title>
+        <title>portfolio</title>
+
+        <!-- google fonts -->
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700" rel="stylesheet">
+
+        <!--        fonty     -->
+
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+        <!--  style -->
 
         <link rel="stylesheet" href="css/style.css">
+        
+        <link rel="stylesheet" href="css/stylerwd.css">
+
 
 </head>
 
 <body>
-    <div class="ramka">
-        <div class="obrazek"></div>
-    </div>
+
+<!--   menu nagłówka   -->
+   
+    <nav id="main-nav">
+       
+       <label for="drop" class="toggle">Menu</label>
+       <input type="checkbox" id="drop" />
+       
+        <ul>
+            <li class="menu-item"><a href="#about">o mnie</a></li>
+            <li class="menu-item"><a href="#skillz">umiejętności</a></li>
+            <li class="menu-item"><a href="#portfolio">portfolio</a></li>
+            <li class="menu-item"><a href="#contact">kontakt</a></li>
+        </ul>
+        
+    </nav>
+
+<!--   obrazek nagłówka  -->
+   
+    <header id="main-header">
+        <div id="header-caption">
+            <h1>Jan
+                <span>Nowak</span>
+            </h1>
+            <h2>Front-End Developer</h2>
+        </div>
+    </header>
+
+<!--   o mnie   -->
+   
+    <section id="about">
+        <h2>O <span>mnie</span></h2>
+        <figure class="col-1-2">
+            <img src="img/jan-nowak.jpg" alt="zdjecie">
+        </figure>
+        <div class="col-1-2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi sint voluptate ea, quam aliquid laudantium nulla facere numquam ratione, laborum vel, consequatur voluptatum, eum error temporibus natus in? Vel, numquam.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque animi quaerat velit magnam eaque vero omnis recusandae, corporis, excepturi et obcaecati enim dolores nobis. Vel ex, veritatis voluptatem perferendis. Assumenda?</p>
+        </div>
+    </section>
+
+<!--   moje umiejętności   -->
+   
+    <section id="skillz">
+        <h2>Moje <span>umiejętności</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas quas saepe error doloribus eius, nihil ab, laboriosam neque eum, tenetur in quo! Aperiam repudiandae possimus at labore praesentium maxime?</p>
+        <div>
+            <figure>
+                <img src="icons/html5.png" alt="html5">
+            </figure>
+            <figure>
+                <img src="icons/css3.png" alt="css3">
+            </figure>
+            <figure>
+                <img src="icons/js.png" alt="js">
+            </figure>
+            <figure>
+                <img src="icons/jquery.png" alt="jquery">
+            </figure>
+        </div>
+    </section>
+
+<!--   moje portfolio   -->
+   
+    <section id="portfolio">
+        <h2>Moje <span> portfolio</span></h2>
+        <div class="portfolio-items">
+            <div id="portfolio-item-1" class="portfolio-item">
+                <div class="item-mask">
+                    <div class="item-content">
+                        <div class="item-content-inner">
+                            <h3>Portfolio 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, error excepturi quaerat fugit aliquid, molestiae doloribus facilis. Sint nemo at magni esse illum consectetur aperiam commodi necessitatibus, quaerat vero, repellat.</p>
+                            <h4>Wykorzystane technologie</h4>
+                            <p class="project-technologies">HTML5, CSS, JS, JQuery, RWD</p>
+                            <a href="#" class="project-link"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-item-2" class="portfolio-item">
+                <div class="item-mask">
+                    <div class="item-content">
+                        <div class="item-content-inner">
+                            <h3>Portfolio 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, error excepturi quaerat fugit aliquid, molestiae doloribus facilis. Sint nemo at magni esse illum consectetur aperiam commodi necessitatibus, quaerat vero, repellat.</p>
+                            <h4>Wykorzystane technologie</h4>
+                            <p class="project-technologies">HTML5, CSS, JS, JQuery, RWD</p>
+                            <a href="#" class="project-link"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-item-3" class="portfolio-item">
+                <div class="item-mask">
+                    <div class="item-content">
+                        <div class="item-content-inner">
+                            <h3>Portfolio 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, error excepturi quaerat fugit aliquid, molestiae doloribus facilis. Sint nemo at magni esse illum consectetur aperiam commodi necessitatibus, quaerat vero, repellat.</p>
+                            <h4>Wykorzystane technologie</h4>
+                            <p class="project-technologies">HTML5, CSS, JS, JQuery, RWD</p>
+                            <a href="#" class="project-link">
+                                <i class="fa fa-link fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--   kontakt   -->
+   
+    <section id="contact">
+        <div class="contact-data">
+            <h2>Jan <span>Nowak</span></h2>
+            <address>
+                ul.Mostowa 6/13 <br> 31-061 Kraków<br><br> tel: 123 456 789<br> e-mail: <a href="mailto: klibanoforos@gmail.com">klibanoforos@gmail.com</a>
+            </address>
+            <div class="contact-social-icons">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="https://formspree.io/klibanoforos@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Imię i Nazwisko" />
+                <input type="email" name="email" placeholder="Adres email" />
+                <textarea name="message" placeholder="Wiadomość" cols="30" rows="5"></textarea>
+                <input type="submit" value="WYŚLIJ">
+            </form>
+        </div>
+    </section>
+
+<!--   stopka   -->
+   
+    <footer class="copyright">
+        <p>Copyright &copy Jan Nowak</p>
+    </footer>
 </body>
 
 </html>
