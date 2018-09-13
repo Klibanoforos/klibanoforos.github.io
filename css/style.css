@@ -19,8 +19,31 @@ h2 {
     text-align: center;
 }
 
+/* nagłówek */
 
-/*menu nagłówka*/
+#main-header .logo {
+    position: relative;
+    display: inline-block;
+}
+
+#main-header .proba {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+
+#main-header .proba .face {
+    padding: 20px;
+    color: cornflowerblue;
+}
+
+#main-header .proba .you {
+    color: red;
+    padding: 20px;
+}
+
+/* menu nagłówka */
 
 
 #main-nav {
@@ -56,9 +79,6 @@ h2 {
 
 /* ebru */
 
-div.proba {
-    background-color: aqua;
-}
 
 
 /* warsztaty */
