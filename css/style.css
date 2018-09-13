@@ -43,6 +43,16 @@ h2 {
     padding: 20px;
 }
 
+#main-header .proba .you:hover {
+    color: orangered;
+    transition: all 0.5s;
+}
+
+#main-header .proba .face:hover {
+    color: blueviolet;
+    transition: all 0.5s;
+}
+
 /* menu nagłówka */
 
 
