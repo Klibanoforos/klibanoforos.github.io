@@ -1,6 +1,5 @@
 /*ogólne style*/
 
-
 html {
     box-sizing: border-box;
     height: 100%;
@@ -32,10 +31,10 @@ div.gallery img:hover {
 }
 
 div.main-container {
- min-height: 100vh;
- overflow: hidden;
- display: block;
- position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
 }
 
 
@@ -46,15 +45,16 @@ header img {
     height: 20vh;
 }
 
-/* menu nagłówka */
 
+/* menu nagłówka */
 
 #main-nav {
     background-color: #800040;
     width: 100%;
 }
 
-#main-nav .toggle, #drop {
+#main-nav .toggle,
+#drop {
     display: none;
 }
 
@@ -70,9 +70,9 @@ header img {
 
 #main-nav ul li a {
     text-decoration: none;
-    color: white; 
+    color: white;
     font-weight: 300;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 #main-nav ul li a:hover {
@@ -81,8 +81,6 @@ header img {
 
 
 /* omnie */
-
-
 
 section.omnie {
     min-height: 110vh;
@@ -114,19 +112,13 @@ section p {
 }
 
 
-
 /* ebru */
-
-
-
-/* wspolpraca */
-
-
 
 
 /* tkaniny */
 
 
+/* wspolpraca */
 
 
 /* kontakt */
@@ -177,7 +169,6 @@ div.contact .contact-data address a {
 
 /* stopka */
 
-
 footer.copyright {
     bottom: 0;
     position: absolute;
@@ -194,7 +185,7 @@ footer.copyright img {
 }
 
 footer.copyright a {
- color: #1ac056;
+    color: #1ac056;
 }
 
 footer.copyright p {
