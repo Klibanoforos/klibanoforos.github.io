@@ -19,11 +19,20 @@ h2 {
     text-transform: uppercase;
 }
 
-div.gallery img {
-    margin: 5px;
+span {
+    font-weight: 700;
+}
+
+div.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+div.gallery a img {
     border: 1px solid #ccc;
-    width: 300px;
     height: 300px;
+    width: 300px;
 }
 
 div.gallery img:hover {
@@ -51,6 +60,7 @@ header img {
 #main-nav {
     background-color: #800040;
     width: 100%;
+    text-transform: uppercase;
 }
 
 #main-nav .toggle,
@@ -61,6 +71,7 @@ header img {
 #main-nav ul {
     margin: 0;
     text-align: center;
+    padding-left: 0;
 }
 
 #main-nav ul li {
@@ -72,7 +83,10 @@ header img {
     text-decoration: none;
     color: white;
     font-weight: 300;
-    text-transform: uppercase;
+}
+
+#main-nav label:hover {
+    cursor: pointer;
 }
 
 #main-nav ul li a:hover {
@@ -103,6 +117,10 @@ section.omnie p {
 
 /* warsztaty */
 
+section {
+    padding-bottom: 25px;
+}
+
 section p {
     text-align: center;
     display: inline-block;
@@ -130,7 +148,7 @@ div.contact {
 }
 
 div.contact .contact-data {
-    padding: 100px;
+    padding: 5%;
 }
 
 div.contact .contact-data h2 {
