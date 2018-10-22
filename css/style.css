@@ -46,6 +46,18 @@ div.main-container {
     position: relative;
 }
 
+section {
+    padding-bottom: 25px;
+}
+
+section p {
+    text-align: center;
+    display: inline-block;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 1.5;
+}
+
 
 /* nagłówek */
 
@@ -117,18 +129,6 @@ section.omnie p {
 
 /* warsztaty */
 
-section {
-    padding-bottom: 25px;
-}
-
-section p {
-    text-align: center;
-    display: inline-block;
-    padding-left: 10%;
-    padding-right: 10%;
-    line-height: 1.5;
-}
-
 
 /* ebru */
 
@@ -138,13 +138,17 @@ section p {
 
 /* wspolpraca */
 
+section.wspolpraca {
+    text-align: center;
+    font-size: 22px;
+}
 
 /* kontakt */
 
 div.contact {
-    font-weight: 200;
     text-align: center;
-    width: 100%;
+    background-color: #cc00ff;
+    font-size: 25px;
 }
 
 div.contact .contact-data {
@@ -152,7 +156,7 @@ div.contact .contact-data {
 }
 
 div.contact .contact-data h2 {
-    font-size: 38px;
+    font-size: 52px;
 }
 
 div.contact .contact-data .contact-social-icons {
@@ -168,7 +172,7 @@ div.contact .contact-data .contact-social-icons a.insta {
 }
 
 div.contact .contact-data .contact-social-icons a.face:hover {
-    color: blueviolet;
+    color: greenyellow;
 }
 
 div.contact .contact-data .contact-social-icons a.insta:hover {
