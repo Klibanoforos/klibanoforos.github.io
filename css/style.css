@@ -149,6 +149,7 @@ div.contact {
     text-align: center;
     background-color: #cc00ff;
     font-size: 25px;
+    color: aliceblue
 }
 
 div.contact .contact-data {
@@ -165,10 +166,12 @@ div.contact .contact-data .contact-social-icons {
 
 div.contact .contact-data .contact-social-icons a.face {
     padding: 20px;
+    color: aliceblue;
 }
 
 div.contact .contact-data .contact-social-icons a.insta {
     padding: 20px;
+    color: aliceblue;
 }
 
 div.contact .contact-data .contact-social-icons a.face:hover {
@@ -185,7 +188,7 @@ div.contact .contact-data address {
 }
 
 div.contact .contact-data address a {
-    color: #006600;
+    color: #11111d;
 }
 
 /* top button */
